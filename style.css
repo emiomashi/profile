@@ -1,0 +1,86 @@
+
+  body {
+    background-color: #F0F8F7;
+    color: #424948;
+    font-family: 'Nunito', sans-serif;
+  }
+  h2, h3, h4 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+  }
+
+  h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+  }
+
+  .button{
+    border: none;
+    font-size: large;
+    padding: 10px;
+    color: #424948;
+    background-color: #F0F8F7;
+  }
+
+  .button:hover{
+    background-color: #056053;
+    color: #323736;
+  }
+
+  img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+  }
+
+  .container {
+    margin: 0 auto;
+  }
+
+  .card {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border: 3px solid lightgrey;
+    margin: 24px auto;
+    width: 500px;
+    box-shadow: 2px 2px 3px #395C55;
+
+
+  }
+
+  .list-inline {
+    list-style: none;
+    padding-left: 0px;
+    display: inline;
+}
+
+  a {
+    text-decoration: none;
+  }
+
+  .list-inline > li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
